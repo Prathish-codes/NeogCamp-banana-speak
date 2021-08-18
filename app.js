@@ -1,8 +1,7 @@
-////******click event */
-//btnTranslate.addEventListener {"click",function clickEvenHandler(),
-  // console.log("clicked")
-//}
-
 var btnTranslate =document.querySelector("#btn-translate")
 
-console.log(btnTranslate)
+function clickEvenHander(){
+    console.log("clicked")
+}
+////******click event */
+btnTranslate.addEventListener ("click" , function clickEvenHander()
