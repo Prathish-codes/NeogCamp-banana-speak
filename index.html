@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Talk banana</title>
-    <style>
-        textarea{
-            width: 90%;
-            height:10vh;
-            display: block;
-            padding:1rem;
-            margin:1rem;
-            width:80%;
-        }
-        #output{
-            border:1px solid black;
-            height: 3rem;
-            padding :1rem;
-            margin:1rem;
-            width: 80%;
-        }
-    </style>
     
+    <link href="style.css" rel="stylesheet">
+
+
+
 </head>
+
 <body>
+    
+    <header>
+       <h1 class="hero"> Minions Translator</h1>
+    </header>
 
- <h1>Talk bananaaaa</h1>
- <textarea id="txt-input" 
-   placeholder="put your sentance in English here and we will convert it to banana"></textarea>
- <button id="btn-translate">translate</button>
- <div fonts-size:bolder >output will come here👇</div>
- <div id="output"></div>
+    
 
- <script src="app.js" type="text/javascript"></script>
-   
+
+    <textarea id="txt-input"
+        placeholder="put your sentance in English here and we will convert it to banana"></textarea>
+
+
+    <button style="text-align:center;" id="btn-translate">Translator</button>
+
+    <div class="output">output will come here👇</div>
+    <div id="output"></div>
+
+    <script src="app.js" type="text/javascript"></script>
+
+    <footer class="footer">
+        <h1 >about</h1>
+        <p >This is a translator from English to banana. for those who dont know where banana language is spoken it's
+            lanaguage of minions!</p>
+        <small>This site is created by prathish</small>
+    </footer>
+    
+    
 </body>
+
 </html>
