@@ -7,13 +7,14 @@ body{
 }
 
 .output{
-    text-align: center;
+    text-align:start;
     font-weight:900;
+    font-size: 2rem;
 
 }
 #btn-translate{
-    text-align: center;
-    font-size:1rem;
+    
+    font-size:2rem;
     color:#333;
     margin:auto;
 }
