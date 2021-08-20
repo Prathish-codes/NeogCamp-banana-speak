@@ -8,15 +8,18 @@ body{
 
 .output{
     text-align:start;
-    font-weight:900;
-    font-size: 2rem;
+    font-weight:600;
+    font-size: 1.5rem;
+    margin-left: 2rem;
 
 }
 #btn-translate{
     
-    font-size:2rem;
+    font-size:1.5rem;
     color:#333;
-    margin:auto;
+    margin:2rem;
+    align-content: center;
+    
 }
 
 
@@ -30,6 +33,8 @@ textarea{
     width:80%;
     color-interpolation-filters: linearRGB;
 }
+
+
 
 #output{
     border:1px solid black;
